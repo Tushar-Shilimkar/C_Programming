@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+#pragma pack(1)
+struct node
+{
+    int data;
+    struct node* next;
+    struct node* prev;
+};
+
+typedef struct node NODE;
+typedef struct node* PNODE;
+typedef struct node** PPNODE;
+
+void Display(PNODE first, PNODE last)
+{}
+
+int Count(PNODE first, PNODE last, int iNo)
+{
+    return 0;
+}
+
+void InsetFirst(PPNODE first, PPNODE last, int iNo)
+{}
+
+void InsetLast(PPNODE first, PPNODE last, int iNo)
+{}
+
+void InsetAtPos(PPNODE first, PPNODE last, int iNo, int iPos)
+{}
+
+void DeleteFirst(PPNODE first, PPNODE last)
+{}
+
+void DeleteLast(PPNODE first, PPNODE last)
+{}
+
+void DeleteAtPos(PPNODE first, PPNODE last, int iPos)
+{}
+
+
+int main()
+{   
+    PNODE head = NULL;
+    PNODE tail = NULL;
+
+
+
+
+    return 0;
+}
